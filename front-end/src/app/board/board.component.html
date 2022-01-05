@@ -1,0 +1,9 @@
+<div class="board-wrapper">
+    <button *ngIf="vShowStart" (click)="onStart()">Start</button>
+    <button  *ngIf="!vShowStart" (click)="onRestart()">Restart</button>
+    <div *ngFor="let row of vBoardArray; let i = index" class="game-row">
+        <div *ngFor="let cellValue of row; let j = index" [className]="getCellClass(cellValue)">
+
+        </div>
+    </div>
+</div>
