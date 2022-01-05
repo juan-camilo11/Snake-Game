@@ -1,0 +1,43 @@
+.board-wrapper {
+    margin-left: 2rem;
+    margin-bottom: 5rem;
+}
+
+.button-wrapper {
+    margin-bottom: 1rem;
+}
+
+.game-row{
+    height: 20px;
+}
+
+.cell {
+    display: inline-block;
+    background-color: #86B5BD;
+    height: 20px;
+    width: 20px;
+}
+
+.snake {
+    display: inline-block;
+    border: 1px solid rgba(97, 131, 138, 0.1);
+    background-color: greenyellow;
+    height: 20px;
+    width: 20px;
+}
+
+.snake-head {
+    display: inline-block;
+    border: 1px solid rgba(97, 131, 138, 0.1);
+    background-color: darkorange;
+    height: 20px;
+    width: 20px;
+}
+
+.food {
+    display: inline-block;
+    border: 1px solid rgba(97, 131, 138, 0.1);
+    background-color: red;
+    height: 20px;
+    width: 20px;
+}

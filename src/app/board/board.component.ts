@@ -602,6 +602,21 @@ export class BoardComponent implements OnInit {
     if (this.vSnakeCells.has(pCellValue)) {
       if (this.vSnake.head.value.cell === pCellValue) {
         return 'snake-head';
+        // switch(this.vSnakeActiveMovingDirection){
+        //   case DIRECTIONS.UP:
+        //     return 'snake-head-up';
+        //   case DIRECTIONS.DOWN:
+        //     return 'snake-head-down';
+        //   case DIRECTIONS.RIGHT:
+        //     return 'snake-head-right';
+        //   case DIRECTIONS.LEFT:
+        //     return 'snake-head-left';
+        //   default:
+        //     return 'snake-head';  
+            
+                
+        // }
+        
       } else {
         return 'snake';
       }
